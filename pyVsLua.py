@@ -26,8 +26,8 @@ for i in range(epochs):
 
 	index = np.random.permutation(100)
 
-	xi = X_b[index]
-	yi = y[index]
+	xi = X_b[index[:batch_size]]
+	yi = y[index[:batch_size]]
 
 	er = xi.dot(theta) - yi
 
