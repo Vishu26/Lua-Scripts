@@ -1,3 +1,5 @@
+## Takes around 1.49 seconds ##
+
 import time
 t1 = time.time()
 
