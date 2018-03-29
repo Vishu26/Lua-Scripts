@@ -1,3 +1,5 @@
+--[[ Takes around 2.18 seconds ]]--
+
 t1 = os.clock()
 
 torch.manualSeed(42)
