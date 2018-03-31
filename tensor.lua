@@ -51,3 +51,17 @@ y = x:clone()
 
 x = torch.Tensor(2,5):fill(3.14)
 
+-- Narrow --
+x = torch.Tensor(7, 8):fill(1)
+y = x:narrow(2, 3, 4)
+
+-- Slicing --
+x = torch.Tensor(7, 8):fill(1)
+y = x:sub(2, 3)
+
+-- Select --
+x = torch.Tensor(7, 8):fill(1)
+y = x:select(1, 5)
+
+
+
