@@ -63,5 +63,12 @@ y = x:sub(2, 3)
 x = torch.Tensor(7, 8):fill(1)
 y = x:select(1, 5)
 
+x:nElement()
+
+x:isSameSizeAs(y)
+
+x:resizeAs(y)
+
+x:resize(4, 5)
 
 
